@@ -16,7 +16,7 @@
 
 	<distributionManagement>
 		<repository>
-			<id>pipeline-demo</id>
+			<id>github</id>
 			<name>Progetto Demo di pipeline</name>
 			<url>https://maven.pkg.github.com/AltenClass/pipeline-demo</url>
 		</repository>
