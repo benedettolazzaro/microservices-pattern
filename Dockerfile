@@ -7,4 +7,7 @@ RUN mvn -B -f pom.xml clean package -DskipTests
 FROM openjdk:11-jdk-slim
 COPY --from=build /workspace/target/*.jar app.jar
 EXPOSE 8080
+# This allows Heroku bind its PORT the Apps port
+# since Heroku needs to use its own PORT before the App can be made accessible to the World
+EXPOSE $PORT
 ENTRYPOINT ["java","-jar","app.jar"]
