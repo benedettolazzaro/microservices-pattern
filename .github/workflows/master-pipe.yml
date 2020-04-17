@@ -75,6 +75,9 @@ jobs:
         run: docker push $REPO
 
   heroku:
+    name: Deploy to Heroku app
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v1
       - name: Login to Heroku Container registry
         env:
