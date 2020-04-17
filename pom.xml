@@ -18,6 +18,7 @@
 		<repository>
 			<id>pipeline-demo</id>
 			<name>Progetto Demo di pipeline</name>
+			<url>www.heroku.com</url>
 		</repository>
 	</distributionManagement>
 
