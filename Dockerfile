@@ -10,4 +10,4 @@ COPY --from=build /workspace/target/*.jar app.jar
 # This allows Heroku bind its PORT the Apps port
 # since Heroku needs to use its own PORT before the App can be made accessible to the World
 EXPOSE $PORT
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar", "-Dserver.port=$PORT","app.jar"
