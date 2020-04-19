@@ -23,23 +23,11 @@ public class HelloControllerTest {
 		assertThat(actual).isEqualTo(expected);
 	}
 
-	@Test
-	public void testStatusGreeting() {
-		HelloResponse actual = this.restTemplate.getForObject("/hello/greeting", HelloResponse.class);
-		HelloResponse expected = buildExpectedGreetingResponse();
-		assertThat(actual).isEqualTo(expected);
-	}
-
-
 
 	private HelloResponse buildExpectedOkResponse() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
 		return res;
 	}
-	private HelloResponse buildExpectedGreetingResponse() {
-		HelloResponse res = new HelloResponse();
-		res.setGreeting("Hello World!");
-		return res;
-	}
+
 }
