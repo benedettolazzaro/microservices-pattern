@@ -2,6 +2,15 @@ package it.corso.esempio.pojo;
 
 public class HelloResponse {
 	private String status;
+	private String greeting;
+
+	public String getGreeting() {
+		return greeting;
+	}
+
+	public void setGreeting(String greeting) {
+		this.greeting = greeting;
+	}
 
 	public String getStatus() {
 		return status;
