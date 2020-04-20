@@ -18,4 +18,15 @@ public class HelloController {
 		
 		return res;
 	}
+
+	@RequestMapping(value="/greeting", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE )
+	public HelloResponse getGreeting() {
+		HelloResponse res = new HelloResponse();
+		res.setStatus("Hello World!");
+
+		return res;
+	}
+
+
+
 }

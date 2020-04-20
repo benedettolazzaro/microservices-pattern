@@ -2,6 +2,7 @@ package it.corso.esempio.pojo;
 
 public class HelloResponse {
 	private String status;
+
 	public String getStatus() {
 		return status;
 	}
