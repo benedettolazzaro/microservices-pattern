@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d399c7aa-a6cf-46f4-b376-e192bc69e4c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipeline-demo-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/corso/esempio/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/corso/esempio/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/corso/esempio/controller/HelloController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/corso/esempio/pojo/HelloResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/corso/esempio/controller/HelloControllerTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservizio-1/src/main/java/it/corso/esempio/microservizio1/controller/Microservizio1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservizio-1/src/main/java/it/corso/esempio/microservizio1/response/Microservizio1Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/it/corso/esempio/gatewayserver/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/java/it/corso/esempio/gatewayserver/GatewayServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservizio-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservizio-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservizio-1/src/main/java/it/corso/esempio/microservizio1/Microservizio1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservizio-1/src/main/java/it/corso/esempio/microservizio1/Microservizio1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservizio-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservizio-1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-discovery/src/main/java/it/corso/esempio/servicediscovery/ServiceDiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-discovery/src/main/java/it/corso/esempio/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-discovery/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,6 +47,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,12 +58,33 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5654397" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="Application" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Microservizio1Application">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pipeline-demo-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="it.corso.esempio.Application" />
@@ -74,16 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Microservizio1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Microservizio1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="microservizio-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="it.corso.esempio.microservizio1.Microservizio1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Microservizio2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Microservizio2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="microservizio-2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="it.corso.esempio.microservizio2.Microservizio2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +122,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Microservizio1Application" />
+      <item itemvalue="Spring Boot.GatewayServerApplication" />
+      <item itemvalue="Spring Boot.Microservizio2Application" />
+      <item itemvalue="Spring Boot.ServiceDiscoveryApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.26506954" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,7 +168,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587483043470</updated>
-      <workItem from="1587483051277" duration="724000" />
+      <workItem from="1587483051277" duration="3426000" />
+      <workItem from="1587547764767" duration="2750000" />
+      <workItem from="1587564761630" duration="6286000" />
     </task>
     <servers />
   </component>
@@ -114,9 +178,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="341" y="0" width="697" height="738" key="#Application" timestamp="1587547860520">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="341" y="0" width="697" height="738" key="#Application/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587547860520" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1587551923705">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587551923705" />
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587486251138">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587486251138" />
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1587567107902">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587567107902" />
+    <state width="950" height="290" key="GridCell.Tab.0.bottom" timestamp="1587572371123">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371123" />
+    <state width="924" height="349" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982811" />
+    <state width="950" height="290" key="GridCell.Tab.0.center" timestamp="1587572371122">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.0.center/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371122" />
+    <state width="924" height="349" key="GridCell.Tab.0.center/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982811" />
+    <state width="950" height="290" key="GridCell.Tab.0.left" timestamp="1587572371121">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.0.left/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371121" />
+    <state width="924" height="349" key="GridCell.Tab.0.left/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982811" />
+    <state width="950" height="290" key="GridCell.Tab.0.right" timestamp="1587572371122">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.0.right/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371122" />
+    <state width="924" height="349" key="GridCell.Tab.0.right/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982811" />
+    <state width="950" height="290" key="GridCell.Tab.1.bottom" timestamp="1587572371123">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371123" />
+    <state width="924" height="349" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982812" />
+    <state width="950" height="290" key="GridCell.Tab.1.center" timestamp="1587572371123">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.1.center/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371123" />
+    <state width="924" height="349" key="GridCell.Tab.1.center/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982812" />
+    <state width="950" height="290" key="GridCell.Tab.1.left" timestamp="1587572371123">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.1.left/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371123" />
+    <state width="924" height="349" key="GridCell.Tab.1.left/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982812" />
+    <state width="950" height="290" key="GridCell.Tab.1.right" timestamp="1587572371123">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="950" height="290" key="GridCell.Tab.1.right/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587572371123" />
+    <state width="924" height="349" key="GridCell.Tab.1.right/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587570982812" />
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog" timestamp="1587568032610">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587568032610" />
     <state x="1507" y="-282" key="SettingsEditor" timestamp="1587483075882">
       <screen x="1366" y="-421" width="1280" height="994" />
     </state>
     <state x="1507" y="-282" key="SettingsEditor/0.0.1366.738/1366.-421.1280.994@1366.-421.1280.994" timestamp="1587483075882" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1587568418894">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-421.1280.994@0.0.1366.738" timestamp="1587568418894" />
   </component>
 </project>
