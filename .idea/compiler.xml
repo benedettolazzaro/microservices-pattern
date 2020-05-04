@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gateway-server" target="11" />
-      <module name="microservizio-1" target="11" />
-      <module name="microservizio-2" target="11" />
+      <module name="gateway-server" target="1.8" />
+      <module name="microservizio-1" target="1.8" />
+      <module name="microservizio-2" target="1.8" />
       <module name="pipeline-demo-app" target="1.5" />
-      <module name="service-discovery" target="11" />
+      <module name="service-discovery" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
